@@ -1,0 +1,18 @@
+# Visual Studio / ASP.NET
+.vs/
+bin/
+obj/
+packages/
+*.user
+*.suo
+*.csproj.user
+*.pubxml.user
+*.Publish.xml
+*.pfx
+**/Package/PackageTmp/
+# Rider / VS Code vs.
+.idea/
+.vscode/
+# OS
+.DS_Store
+Thumbs.db
