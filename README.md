@@ -23,4 +23,7 @@
 ![Screenshot](https://github.com/user-attachments/assets/e4fb1f57-8a66-40a1-8f99-f7ea7778ba7e)
 
 ### Support my work
+
+![Patreon](https://www.patreon.com/cw/u43114136)
+
 ![Buy Me a Coffee](https://buymeacoffee.com/ozbanatakan)
