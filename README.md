@@ -4,7 +4,7 @@
  - Made with using ASP.NET MVC Entity Framework Code First infrastructure.
  - Made with using and edited from Boostrap Examples (![Cover](https://getbootstrap.com/docs/5.3/examples/cover/) and ![Sign-in](https://getbootstrap.com/docs/5.3/examples/sign-in/)) and W3Schools (admin panel layout)
 
-# Footages from Project
+### Footages from Project
 
 **Home Page**
 
@@ -21,3 +21,6 @@
  **Admin Panel Post Edit/Create**
  
 ![Screenshot](https://github.com/user-attachments/assets/e4fb1f57-8a66-40a1-8f99-f7ea7778ba7e)
+
+### Support my work
+![Buy Me a Coffee](https://buymeacoffee.com/ozbanatakan)
