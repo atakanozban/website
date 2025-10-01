@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>atakanozban.com.tr Admin Panel</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+    <link rel="font-awesome" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="w3-sidebar w3-bar-block bg-dark" style="width: 25%; color: #212529">
+        <h3 class="w3-bar-item text-white">Menu</h3>
+        <a href="/myprojects/index" class="w3-bar-item text-decoration-none text-white" target="_blank">Go to site</a>
+        <a href="/login/logout" class="w3-bar-item text-decoration-none text-white">Sign out</a>
+    </div>
+
+    <!-- Page Content -->
+    <div style="margin-left: 25%">
+        <div class="w3-container w3-teal">
+            <h1>atakanozban.com.tr Admin Panel</h1>
+        </div>
+        <div class="w3-container bg-dark">
+            @RenderBody()
+        </div>
+    </div>
+    <style>
+        body {
+            background-color: #212529; /* Bootstrap’in dark bg rengi */
+        }
+    </style>
+</body>
+</html>

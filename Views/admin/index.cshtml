@@ -1,0 +1,33 @@
+﻿@using atakanozbancomtr.Models.classes
+@model List<myprojects>
+
+
+@{
+    ViewBag.Title = "index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="text-white mt-3 mb-3">Posts</h2>
+
+<table class="table table-bordered mt-3">
+    <tr class="bg-dark text-white">
+        <th class="bg-dark text-white">ID</th>
+        <th class="bg-dark text-white">Title</th>
+        <th class="bg-dark text-white">Description</th>
+        <th class="bg-dark text-white">Edit</th>
+        <th class="bg-dark text-white">Delete</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td class="bg-dark text-white">@x.id</td>
+            <td class="bg-dark text-white">@x.title</td>
+            <td class="bg-dark text-white">@x.description</td>
+            <td class="bg-dark text-white"><a href="/admin/myprojectsget/@x.id" class="btn btn-primary">Edit</a></td>
+            <td class="bg-dark text-white"><a href="/admin/myprojectsdelete/@x.id " class="btn btn-danger">Delete</a></td>
+        </tr>
+    }
+
+</table>
+<a href="/admin/newmppost" class="btn btn-primary">Create New Post</a>
+

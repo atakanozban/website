@@ -1,0 +1,24 @@
+﻿@model atakanozbancomtr.Models.classes.myprojects
+@{
+    ViewBag.Title = "newmppost";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="text-white">Add New My Projects Post</h2>
+<br />
+<form class="form-group text-white" method="post">
+    @Html.LabelFor(x => x.title)
+    @Html.TextBoxFor(x => x.title, new { @class = "form-control bg-dark text-white required" })
+    <br />
+    @Html.LabelFor(x => x.description)
+    @Html.TextAreaFor(x => x.description, new { @class = "form-control bg-dark text-white required" })
+    <br />
+    @Html.LabelFor(x => x.image)
+    @Html.TextBoxFor(x => x.image, new { @class = "form-control bg-dark text-white required" })
+    <br />
+    @Html.LabelFor(x => x.iframe)
+    @Html.TextBoxFor(x => x.iframe, new { @class = "form-control bg-dark text-white" })
+    <br />
+    <button class="btn btn-success">Add New Post</button>
+</form>
+

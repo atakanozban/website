@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "index";
+    Layout = "~/Views/Shared/_PortfolioLayout.cshtml";
+}
+
+<!-- Custom styles for this template -->
+<link href="assets/css/style.css" rel="stylesheet">
+
+<main class="px-3">
+    <h1 class="m-4 text-white">My Projects</h1>
+    @Html.Action("projectposts", "myprojects")
+</main>
+

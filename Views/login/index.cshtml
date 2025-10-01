@@ -1,0 +1,84 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign-in</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        /* Form kutularını karanlık moda uygun hale getir */
+        .form-control {
+            background-color: #212529 !important; /* Siyah arka plan */
+            color: white !important; /* Beyaz yazı */
+            border: 1px solid #6c757d; /* Gri kenarlık */
+        }
+
+            /* Placeholder rengini aç */
+            .form-control::placeholder {
+                color: #adb5bd !important;
+            }
+
+            /* Inputlara odaklanıldığında (focus) kenarlık mavi olacak */
+            .form-control:focus {
+                border-color: #0d6efd !important; /* Bootstrap'in mavi tonu */
+                box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+            }
+
+        /* Checkbox stilini beyaz yap */
+        .form-check-input {
+            background-color: #343a40 !important;
+            border-color: #6c757d !important;
+        }
+
+            /* Checkbox'a hover efekti */
+            .form-check-input:checked {
+                background-color: #0d6efd !important;
+                border-color: #0d6efd !important;
+            }
+
+        /* Giriş butonunu karanlık temaya uygun hale getir */
+        .btn-primary {
+            background-color: #0d6efd !important;
+            border-color: #0d6efd !important;
+        }
+
+            .btn-primary:hover {
+                background-color: #0b5ed7 !important;
+                border-color: #0a58ca !important;
+            }
+    </style>
+</head>
+
+<body class="bg-dark d-flex align-items-center justify-content-center vh-100">
+    <main class="form-signin w-100" style="max-width: 400px;">
+        @using (Html.BeginForm("index", "login", FormMethod.Post))
+        {
+            <h1 class="h3 mb-3 fw-normal text-white text-center">Please sign in</h1>
+
+            <div class="form-floating">
+                <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Username">
+                <label for="floatingInput">Username</label>
+            </div>
+
+            <div class="form-floating mt-2 mb-2">
+                <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+
+            <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+        }
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

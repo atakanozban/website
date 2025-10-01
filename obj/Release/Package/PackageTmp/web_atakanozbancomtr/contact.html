@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="In 2016, I started working on development. Then, in 2018, I became interested in music and 360 photography using my cell phone. I began learning piano shortly after, but I stopped for a while. In 2020, I returned to development and learned Python at an intermediate level. Later, I started learning JavaScript and Node.js to develop Discord bots. In 2022, I went back to playing piano and began my journey as a musical artist. Now, I continue creating classical music, working on web development and design, and practicing photography.">
+    <meta name="author" content="Atakan Doğan Özban">
+    <meta name="keywords" content="atakandoganozban, atakan özban, atakan doğan özban, atakan ozban">
+    <title>Atakan Doğan Özban</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        /* Form kutularını siyah yap ve yazı rengini beyaz olarak ayarla */
+        input,
+        textarea {
+            background-color: #212529 !important;
+            color: white !important;
+        }
+
+        /* Placeholder (yer tutucu) rengini gri yap */
+        input::placeholder,
+        textarea::placeholder {
+            color: #aaa;
+        }
+
+        /* Input ve textarea'ya odaklanıldığında kenarlık rengini değiştir */
+        input:focus,
+        textarea:focus {
+            border-color: #007bff;
+            /* Bootstrap'in mavi rengi */
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('assets/img/wp.jpg') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.25;
+            /* Resmin saydamlığını düşürerek görünürlüğünü azaltma */
+            z-index: -1;
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            width: 100%;
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .btn-bd-primary {
+            --bd-violet-bg: #712cf9;
+            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #6528e0;
+            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #5a23c8;
+            --bs-btn-active-border-color: #5a23c8;
+        }
+
+        .bd-mode-toggle {
+            z-index: 1500;
+        }
+
+        .bd-mode-toggle .dropdown-menu .active .bi {
+            display: block !important;
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body class="d-flex h-100 text-center text-bg-dark">
+    <div class="background-image"></div>
+    <div class="d-flex cover-container w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">Atakan</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link fw-bold py-1 px-0" href="index.html">Home</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="about.html">About Me</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="projects.html">My Projects</a>
+                    <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <div id="contact">
+            <form class="contactForm p-4 text-start" action="/phpmailer/form.php" enctype="multipart/form-data" method="post">
+              <div class="mb-3">
+                <label for="isim" class="form-label">Nane / Surname <a class="text-danger">*</a>:</label>
+                <input name="isim" id="isim" type="text" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="konu" class="form-label">Subject <a class="text-danger">*</a>:</label>
+                <input name="subject" id="konu" type="text" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">E-Mail Address <a class="text-danger">*</a>:</label>
+                <input name="email" id="email" type="email" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="mesaj" class="form-label">Your Message <a class="text-danger">*</a>:</label>
+                <textarea name="mesaj" id="mesaj" class="form-control" rows="3" required></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="attachment" class="form-label">File attachment:</label>
+                <input name="attachment" id="attachment" class="form-control" type="file">
+              </div>
+              <button type="submit" name="submit" id="submit" class="btn btn-primary w-100">Submit</button>
+              <div class="resultMessage col-mt-1"></div>
+            </form>
+        </div>
+
+        <footer class="mt-auto text-white-50">
+            <div class="icons mb-2">
+                <a href="https://www.youtube.com/channel/UCI0-jCkzh_txX2XaxhcXeDw" class="text-decoration-none text-white-50">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://open.spotify.com/user/6xirn4w7viqgds4jeanjz0678?si=62f854f6b7664a0d"
+                    class="text-decoration-none text-white-50">
+                    <i class="fa-brands fa-spotify"></i>
+                </a>
+                <a href="https://instagram.com/atakandoganozban" class="text-decoration-none text-white-50">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/KsBenAtaGG" class="text-decoration-none text-white-50">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linktr.ee/atakanozban" class="text-decoration-none text-white-50">
+                    <i class="fa-solid fa-link"></i>
+                </a>
+            </div>
+            <p>made with ❤, by <a class="text-white text-decoration-none">atakan</a>.</p>
+        </footer>
+    </div>
+    <script>
+        // Tüm formları seç
+        document.querySelectorAll('.contactForm').forEach(form => {
+          form.addEventListener('submit', function (e) {
+            e.preventDefault(); // Sayfa yenilenmesini engelle
+  
+            const formData = new FormData(this); // Form verilerini al
+            const resultMessage = this.querySelector('.resultMessage'); // Formun içindeki resultMessage divini seç
+  
+            // Yükleniyor mesajını göster
+            resultMessage.innerHTML = '<div class="alert alert-info mt-3">Sending...</div>';
+  
+            fetch('phpmailer/form.php', {
+              method: 'POST',
+              body: formData
+            })
+              .then(response => {
+                if (!response.ok) throw new Error('Server error!');
+                return response.text();
+              })
+              .then(data => {
+                // Başarı mesajını göster
+                resultMessage.innerHTML = `<div class="alert alert-success mt-3">${data}</div>`;
+              })
+              .catch(error => {
+                // Hata mesajını göster
+                console.error('Hata:', error);
+                resultMessage.innerHTML = `<div class="alert alert-danger">An error occured: ${error.message}</div>`;
+              });
+          });
+        });
+  
+      </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

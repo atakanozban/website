@@ -1,0 +1,690 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAH7DcJyhwhUGQITja2HILTgAAAAACAAAAAAAQZgAAAAEAACAAAAD73JkHmO1GKjhrqe3xUl20HWKDbvYSX40nxymBaBoYkgAAAAAOgAAAAAIAACAAAAB1tiqYCOCIjY4G7iEBIHrX34hJTJEIhda9YL1Vk8DpijAAAAAhT+FEJN0TOpLcAFnlBgGFSPlhWy8KzKxBmhMoBa49JosRY0Gqb8wmMEL+l0o+kpBAAAAAHS2aBYPUyVujiCVwj6LlOyHvJZQynYN3GxMbGOmALLujhmopOeq0vmJotGCK9lJyZTgQGg4ScNopje+IA9ry/w==</EncryptedPassword>
+    <_PublishTargetUrl>ftp://2.59.119.221/httpdocs</_PublishTargetUrl>
+    <History>True|2025-09-22T15:06:48.7766011Z||;False|2025-09-21T18:29:43.4704789+03:00||;True|2025-09-20T01:40:17.2417301+03:00||;False|2025-09-20T01:37:21.3230856+03:00||;True|2025-09-19T23:56:23.7934371+03:00||;True|2025-09-19T23:09:23.8015886+03:00||;True|2025-09-19T19:40:10.9550977+03:00||;False|2025-09-19T19:37:09.1019191+03:00||;True|2025-05-30T23:01:37.4845014+03:00||;True|2025-05-21T00:30:46.0731070+03:00||;True|2025-04-30T23:16:03.3302804+03:00||;True|2025-04-30T23:09:03.1242911+03:00||;True|2025-04-30T22:48:46.0825143+03:00||;False|2025-04-30T22:36:25.8739225+03:00||;True|2025-04-28T20:52:49.2882618+03:00||;False|2025-04-28T20:49:47.2601005+03:00||;True|2025-04-28T19:43:13.9268310+03:00||;True|2025-04-27T23:21:23.6704336+03:00||;True|2025-03-29T22:45:17.1130908+03:00||;True|2025-02-24T22:16:10.4809503+03:00||;True|2025-02-24T18:44:27.2017618+03:00||;True|2025-02-24T17:42:56.3412402+03:00||;True|2025-02-24T17:19:22.3689995+03:00||;True|2025-02-24T16:55:41.1887998+03:00||;False|2025-02-24T16:50:58.3326486+03:00||;True|2025-02-18T19:12:56.6730933+03:00||;True|2025-02-18T19:08:15.8717213+03:00||;True|2025-02-18T19:04:57.5882669+03:00||;True|2025-02-18T18:38:08.7278031+03:00||;True|2025-02-18T18:18:59.2945817+03:00||;True|2025-02-18T18:13:08.8200259+03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_GlobalResources/Resources.resx">
+      <publishTime>07/05/2025 22:06:55</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>10/09/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>10/09/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/atakanozbancomtr.dll">
+      <publishTime>09/22/2025 18:04:31</publishTime>
+    </File>
+    <File Include="bin/atakanozbancomtr.pdb">
+      <publishTime>09/22/2025 18:04:31</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>06/16/2024 23:46:24</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>06/16/2024 23:47:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/09/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>11/04/2022 19:09:46</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2023 07:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/12/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/12/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>05/11/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/11/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/11/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>05/11/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/11/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/11/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>05/11/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/11/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>05/11/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/11/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/11/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>05/11/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>05/11/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>05/11/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/11/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/11/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/11/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/11/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/11/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>05/11/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/11/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/11/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/11/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/11/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/11/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/27/2022 23:41:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/27/2022 23:42:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>11/02/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/27/2022 23:42:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>05/27/2022 23:42:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>05/27/2022 23:42:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>05/27/2022 23:42:50</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 12:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css.map">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css.map">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css.map">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css.map">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css.map">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css.map">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css.map">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css">
+      <publishTime>02/04/2025 13:42:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css.map">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>02/04/2025 13:42:30</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>02/04/2025 13:42:30</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/04/2025 13:42:30</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js.map">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js.map">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>02/04/2025 13:42:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.7.0.js">
+      <publishTime>02/04/2025 13:42:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.7.0.min.js">
+      <publishTime>02/04/2025 13:42:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.7.0.min.map">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.7.0.slim.js">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.7.0.slim.min.js">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.7.0.slim.min.map">
+      <publishTime>02/04/2025 13:42:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>02/04/2025 13:43:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>02/04/2025 13:43:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>02/04/2025 13:43:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>02/04/2025 13:43:03</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>02/04/2025 13:43:02</publishTime>
+    </File>
+    <File Include="Views/about/index.cshtml">
+      <publishTime>09/22/2025 16:59:10</publishTime>
+    </File>
+    <File Include="Views/admin/index.cshtml">
+      <publishTime>09/21/2025 23:48:28</publishTime>
+    </File>
+    <File Include="Views/admin/myprojectsget.cshtml">
+      <publishTime>09/22/2025 01:44:23</publishTime>
+    </File>
+    <File Include="Views/admin/newmppost.cshtml">
+      <publishTime>09/22/2025 01:43:26</publishTime>
+    </File>
+    <File Include="Views/contact/index.cshtml">
+      <publishTime>03/29/2025 22:15:49</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>02/04/2025 13:42:30</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>02/04/2025 13:42:30</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>02/04/2025 13:42:30</publishTime>
+    </File>
+    <File Include="Views/login/index.cshtml">
+      <publishTime>02/05/2025 23:34:38</publishTime>
+    </File>
+    <File Include="Views/main/index.cshtml">
+      <publishTime>02/04/2025 23:14:11</publishTime>
+    </File>
+    <File Include="Views/myprojects/index.cshtml">
+      <publishTime>09/22/2025 14:35:51</publishTime>
+    </File>
+    <File Include="Views/myprojects/projectposts.cshtml">
+      <publishTime>09/22/2025 01:36:50</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/19/2025 23:41:57</publishTime>
+    </File>
+    <File Include="Views/Shared/_AdminLayout.cshtml">
+      <publishTime>09/22/2025 01:15:18</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>02/04/2025 13:42:30</publishTime>
+    </File>
+    <File Include="Views/Shared/_PortfolioLayout.cshtml">
+      <publishTime>09/19/2025 19:35:32</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>02/04/2025 13:42:30</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>02/04/2025 13:42:30</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/22/2025 18:04:34</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/about.html">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/assets/css/style.css">
+      <publishTime>09/21/2025 21:22:02</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/assets/img/wp.jpg">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/contact.html">
+      <publishTime>02/05/2025 23:58:00</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/index.html">
+      <publishTime>02/06/2025 00:25:00</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/.editorconfig">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/COMMITMENT">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/composer.json">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/form.php">
+      <publishTime>02/24/2025 16:41:26</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/get_oauth_token.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-af.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-ar.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-as.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-az.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-ba.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-be.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-bg.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-bn.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-ca.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-cs.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-da.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-de.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-el.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-eo.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-es.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-et.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-fa.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-fi.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-fo.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-fr.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-gl.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-he.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-hi.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-hr.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-hu.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-hy.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-id.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-it.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-ja.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-ka.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-ko.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-ku.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-lt.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-lv.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-mg.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-mn.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-ms.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-nb.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-nl.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-pl.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-pt.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-pt_br.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-ro.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-ru.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-si.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-sk.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-sl.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-sr.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-sr_latn.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-sv.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-tl.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-tr.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-uk.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-ur.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-vi.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-zh.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/language/phpmailer.lang-zh_cn.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/LICENSE">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/README.md">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/SECURITY.md">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/src/DSNConfigurator.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/src/Exception.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/src/OAuth.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/src/OAuthTokenProvider.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/src/PHPMailer.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/src/POP3.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/src/SMTP.php">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/phpmailer/VERSION">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_atakanozbancomtr/projects.html">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+    <File Include="web_panel/index.html">
+      <publishTime>02/05/2025 12:47:38</publishTime>
+    </File>
+    <File Include="web_panel/style.css">
+      <publishTime>02/04/2025 14:46:01</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿@model atakanozbancomtr.Models.classes.myprojects
+@{
+    ViewBag.Title = "myprojectsget";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="mt-3 text-white">My Projects Edit Post</h2>
+<hr />
+
+@using (Html.BeginForm("myprojectsupdate", "admin", FormMethod.Post))
+{
+    @Html.LabelFor(x => x.id, new { @class = "text-white" })
+    @Html.TextBoxFor(x => x.id, new { @class = "form-control bg-dark text-white", @readonly = "readonly" })
+    <br />
+    @Html.LabelFor(x => x.title, new { @class = "text-white" })
+    @Html.TextBoxFor(x => x.title, new { @class = "form-control bg-dark text-white required" })
+    <br />
+    @Html.LabelFor(x => x.description, new { @class = "text-white" })
+    @Html.TextAreaFor(x => x.description, new { @class = "form-control bg-dark text-white required" })
+    <br />
+    @Html.LabelFor(x => x.image, new { @class = "text-white" })
+    @Html.TextBoxFor(x => x.image, new { @class = "form-control bg-dark text-white required" })
+    <br />
+    @Html.LabelFor(x => x.iframe, new { @class = "text-white" })
+    @Html.TextBoxFor(x => x.iframe, new { @class = "form-control bg-dark text-white" })
+    <br />
+    <button class="btn btn-success">Update My Projects</button>
+}
