@@ -24,4 +24,4 @@
 
 ### Support my work
 
-[Patreon](http://link.atakanozban.com/donate)
+[Patreon](https://link.atakanozban.com/donate)
