@@ -24,6 +24,4 @@
 
 ### Support my work
 
-![Patreon](https://www.patreon.com/cw/u43114136)
-
-![Buy Me a Coffee](https://buymeacoffee.com/ozbanatakan)
+![Patreon](https://link.atakanozban.com/donate)
